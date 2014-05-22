@@ -31,11 +31,11 @@ function clearText(field)
     	<div id="site_title" ><a rel="nofollow" href="http://localhost:8088/?url=DraesPanel/home/index.html" rel="nofollow" target="_parent">DRAES</a></div>
         <div id="templatemo_menu">
             <ul>
-                <li><a href="http://localhost:8088/?url=DraesPanel/home" class="selected home">Anasayfa</a></li>
-                <li><a href="http://localhost:8088/?url=DraesPanel/services" class="services">Üye Girişi</a></li>
-                <li><a href="http://localhost:8088/?url=DraesPanel/gallery" class="gallery">Üye Ol</a></li>
-                <li><a href="http://localhost:8088/?url=DraesPanel/news" class="news">Hakkımızda</a></li>
-                <li class="last"><a href="http://localhost:8088/?url=DraesPanel/contact" class=" contact">İletişim</a></li>
+                <li><a href="http://localhost:8088/www/?url=DraesPanel/home" class="selected home">Anasayfa</a></li>
+                <li><a href="http://localhost:8088/www/?url=DraesPanel/services" class="services">Üye Girişi</a></li>
+                <li><a href="http://localhost:8088/www/?url=DraesPanel/gallery" class="gallery">Üye Ol</a></li>
+                <li><a href="http://localhost:8088/www/?url=DraesPanel/news" class="news">Hakkımızda</a></li>
+                <li class="last"><a href="http://localhost:8088/www/?url=DraesPanel/contact" class=" contact">İletişim</a></li>
             </ul>
         </div> <!-- end of templatemo_menu -->
         <div><a href="http://tr.hdstockphoto.com"  class="top"  target="_blank"><img src="<?php echo SITE_PUBLIC_DTEMPLATE ; ?>/images/top.png" alt="Ãœcretsiz fotoÄŸraf arama" title="Ãœcretsiz fotoÄŸraf arama" /></a></div>

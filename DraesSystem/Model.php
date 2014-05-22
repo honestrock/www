@@ -5,9 +5,9 @@ class Model{
     protected $db = array();
     
     public function __construct() {
-        $dsn = 'mysql:dbname=Draes;host=localhost';
-        $user = 'root';
-        $password = 'kamp';
+        $dsn = 'mysql:dbname=turkuazp_draes;host=ultio.alastyr.com';
+        $user = 'turkuazp_draes';
+        $password = 'draes+system';
         
         $this->db = new Database($dsn, $user, $password);
     }

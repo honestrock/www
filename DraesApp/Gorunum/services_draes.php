@@ -70,7 +70,7 @@ function clearText(field)
 
 		<h2><span class="fontawesome-lock"></span>Üye Girişi</h2>
 
-		<form action="http://localhost:8088/?url=Admin/runLogin" method="POST">
+		<form action="http://localhost:8088/www/?url=Admin/runLogin" method="POST">
 
 			<fieldset>
 
