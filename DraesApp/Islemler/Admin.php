@@ -28,6 +28,8 @@ class Admin extends Controller{
            Session::set("parola","Kullanıcı adı hatalı");
            header("Location: ". SITE_URL ."/?url=LoginIslem/yeniKullanici");
          
+        
+           
     
        
         
@@ -131,16 +133,29 @@ class Admin extends Controller{
           
           $resultT= $admin_model->kullaniciKaydet($data);
           
+           $mesaj="Kayıt Başarılı Lüften Kullanıcı Adı ve Şifreniz İle Giriş Yapınız";
+          $data2["information"]=array(
+            "message" =>$mesaj
+                
+        );
+          
+          
           if($resultT == 1 ){
             $dataM["mesaj"] = array(
                 "mesaj" => "Kayıt işlemi başarıyla gerçekleşti."
             );
+                $this->load->view("lastLogin",$data2);
         }else{
             $dataM["mesaj"] = array(
                 "mesaj" => "Kayıt işlemi yapılırken bir sorun oluştu."
             ); 
+            header("Location: ". SITE_URL ."/?url=Admin/yeniKullanici");
         }
-       $this->load->view("draes");
+        
+       
+        
+        
+   
     }
 
 

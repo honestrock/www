@@ -39,7 +39,7 @@
                            </select></br></br>
 					</div>
                                     <div class="entry">
-					<button type="submit" class="add">Analizi Göster</button> <button  class="cancel">İptal</button>
+			
 					</div>
                                     
                                     

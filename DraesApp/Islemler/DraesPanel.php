@@ -10,6 +10,9 @@ class DraesPanel extends Controller{
     public function home(){
         $this->load->view("draes");
     }
+      public function indir(){
+        $this->load->view("indir");
+    }
     public function contact(){
         $this->load->view("contact");
     }

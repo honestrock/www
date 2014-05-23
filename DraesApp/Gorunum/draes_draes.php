@@ -53,13 +53,13 @@ function clearText(field)
             </div>
             <div id="caption2" class="nivo-html-caption">
                 <h1>AFET RİSK ANALİZ DEĞERLENDİRME SİSTEMİ</h1>
-                <p>BU SİSTEMDE <font color='cc0000'font size="3">"AFET YÖNETİMİ YAKLAŞIMI"</font> GELİŞTİRİLEREK AFET YÖNETİM SÜRECİNE BİLİMSEL VE YAZILIMSAL BİR KATKIDA BULUNULACAKTIR.</p>
+                <p>AFET RİSK ANALİZ DEĞERLENDİRME SİSTEMİNİN  <font color='cc0000'font size="3">"MOBİL VE MASAÜSTÜ UYGULAMALARI"</font> YAYINDA .</p>
             </div>
             <div id="caption3" class="nivo-html-caption">
                 <h1>AFET RİSK ANALİZ DEĞERLENDİRME SİSTEMİ </h1>
                 <p>BU SİSTEMDE <font color='cc0000'font size="3">"AFET YÖNETİMİ YAKLAŞIMI"</font> GELİŞTİRİLEREK AFET YÖNETİM SÜRECİNE BİLİMSEL VE YAZILIMSAL BİR KATKIDA BULUNULACAKTIR.</p>
             </div>
-			<a href="<?php echo SITE_PUBLIC_DTEMPLATE ; ?>/indir.html" class="slider_detail">Detay</a>
+			<a href="http://localhost:8088/www/?url=DraesPanel/indir" class="slider_detail">Detay</a>
         </div>
         <script type="text/javascript" src="<?php echo SITE_PUBLIC_DTEMPLATE ; ?>/js/jquery-1.6.3.min.js"></script>
 		<script type="text/javascript" src="<?php echo SITE_PUBLIC_DTEMPLATE ; ?>/js/jquery.nivo.slider.pack.js"></script>

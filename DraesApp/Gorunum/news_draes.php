@@ -27,7 +27,7 @@ function clearText(field)
         </div>
 	</div>
 	<div id="templatemo_header">
-    	<div id="site_title"><a rel="nofollow" href="<?php echo SITE_PUBLIC_DTEMPLATE ; ?>/index.html" rel="nofollow" target="_parent">Blue Tech Template</a></div>
+    	<div id="site_title"><a rel="nofollow" href="http://localhost:8088/www/?url=DraesPanel/home" rel="nofollow" target="_parent">Blue Tech Template</a></div>
         <div id="templatemo_menu">
             <ul>
                   <li><a href="http://localhost:8088/www/?url=DraesPanel/home" class="selected home">Anasayfa</a></li>

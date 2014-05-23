@@ -28,7 +28,7 @@ function clearText(field)
         </div>
 	</div>
 	<div id="templatemo_header">
-	<div id="site_title"><a rel="nofollow" href="<?php echo SITE_PUBLIC_DTEMPLATE ; ?>/index.html" rel="nofollow" target="_parent">Draes</a></div>        <div id="templatemo_menu">
+	<div id="site_title"><a rel="nofollow" href="http://localhost:8088/www/?url=DraesPanel/home" rel="nofollow" target="_parent">Draes</a></div>        <div id="templatemo_menu">
             <ul>
                     <li><a href="http://localhost:8088/www/?url=DraesPanel/home" class="selected home">Anasayfa</a></li>
                 <li><a href="http://localhost:8088/www/?url=DraesPanel/services" class="services">Üye Girişi</a></li>
@@ -41,8 +41,8 @@ function clearText(field)
     </div> <!-- END of header -->
     
     
-	 <p><br><br> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo SITE_PUBLIC_DTEMPLATE ; ?>/index.html"><img src="<?php echo SITE_PUBLIC_DTEMPLATE ; ?>/images/des.jpg" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	    <a href="index.html"><img src="<?php echo SITE_PUBLIC_DTEMPLATE ; ?>/images/mob.jpg" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 <p><br><br> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo SITE_PUBLIC_DTEMPLATE ; ?>/index.html"><img src="<?php echo SITE_PUBLIC_DTEMPLATE ; ?>/images/Device-Computer-icon.png" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="index.html"><img src="<?php echo SITE_PUBLIC_DTEMPLATE ; ?>/images/mob2.png" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <br>
 <br>
 <br>

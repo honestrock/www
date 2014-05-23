@@ -4,13 +4,10 @@ class DraesYonetim extends Controller{
     public function __construct() {
        parent::__construct();
         
-           Session::init();
-        if(Session::get("loginHata") == true){
+       Session::init();
+        if(Session::get("login") == false){
             Session::destroy();
-           header("Location: ". SITE_URL ."/?url=LoginIslem/yeniKullanici");
-        
-        }else{
-             header("Location: ". SITE_URL ."/?url=panel/home");
+            header("Location: ". SITE_URL ."/?url=admin/login");
         }
         
         

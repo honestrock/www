@@ -97,6 +97,8 @@ function clearText(field)
 		<h2><span class="fontawesome-lock"></span>Üyelik Formu</h2>
 
 		<form action="http://localhost:8088/www/?url=Admin/addUser" method="POST">
+                    
+             
 
 			<fieldset>
 
