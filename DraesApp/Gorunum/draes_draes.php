@@ -28,12 +28,12 @@ function clearText(field)
         </div>
 	</div>
 	<div id="templatemo_header">
-    	<div id="site_title" ><a rel="nofollow" href="http://localhost:8088/?url=DraesPanel/home/index.html" rel="nofollow" target="_parent">DRAES</a></div>
+    	<div id="site_title" ><a rel="nofollow" href="http://localhost:8088/www/?url=DraesPanel/home/index.html" rel="nofollow" target="_parent">DRAES</a></div>
         <div id="templatemo_menu">
             <ul>
                 <li><a href="http://localhost:8088/www/?url=DraesPanel/home" class="selected home">Anasayfa</a></li>
                 <li><a href="http://localhost:8088/www/?url=DraesPanel/services" class="services">Üye Girişi</a></li>
-                <li><a href="http://localhost:8088/www/?url=DraesPanel/gallery" class="gallery">Üye Ol</a></li>
+                <li><a href="http://localhost:8088/www/?url=Admin/yeniKullanici" class="gallery">Üye Ol</a></li>
                 <li><a href="http://localhost:8088/www/?url=DraesPanel/news" class="news">Hakkımızda</a></li>
                 <li class="last"><a href="http://localhost:8088/www/?url=DraesPanel/contact" class=" contact">İletişim</a></li>
             </ul>

@@ -10,7 +10,7 @@
 	<div id="content">
 		<div id="main">
 			<div class="full_w">
-				<form action="http://localhost:8088/?url=Admin/runLogin" method="post">
+				<form action="http://localhost:8088/www/?url=Admin/runLogin" method="post">
 					<label for="login">Username:</label>
 					<input id="login" name="username" class="text" />
 					<label for="pass">Password:</label>

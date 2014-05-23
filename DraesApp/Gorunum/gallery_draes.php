@@ -47,13 +47,13 @@ function clearText(field)
         </div>
 	</div>
 	<div id="templatemo_header">
-	<div id="site_title"><a rel="nofollow" href="http://localhost:8088/?url=DraesPanel/home/index.html" rel="nofollow" target="_parent">Draes</a></div>        <div id="templatemo_menu">
+	<div id="site_title"><a rel="nofollow" href="http://localhost:8088/www/?url=DraesPanel/home/index.html" rel="nofollow" target="_parent">Draes</a></div>        <div id="templatemo_menu">
             <ul>
-                 <li><a href="http://localhost:8088/?url=DraesPanel/home" class="selected home">Anasayfa</a></li>
-                <li><a href="http://localhost:8088/?url=DraesPanel/services" class="services">Üye Girişi</a></li>
-                <li><a href="http://localhost:8088/?url=DraesPanel/gallery" class="gallery">Üye Ol</a></li>
-                <li><a href="http://localhost:8088/?url=DraesPanel/news" class="news">Hakkımızda</a></li>
-                <li class="last"><a href="http://localhost:8088/?url=DraesPanel/contact" class=" contact">İletişim</a></li>
+                 <li><a href="http://localhost:8088/www/?url=DraesPanel/home" class="selected home">Anasayfa</a></li>
+                <li><a href="http://localhost:8088/www/?url=DraesPanel/services" class="services">Üye Girişi</a></li>
+                <li><a href="http://localhost:8088/www/?url=Admin/yeniKullanici" class="gallery">Üye Ol</a></li>
+                <li><a href="http://localhost:8088/www/?url=DraesPanel/news" class="news">Hakkımızda</a></li>
+                <li class="last"><a href="http://localhost:8088/www/?url=DraesPanel/contact" class=" contact">İletişim</a></li>
             </ul>
         </div> <!-- end of templatemo_menu -->
         <div></div>
@@ -96,7 +96,7 @@ function clearText(field)
 
 		<h2><span class="fontawesome-lock"></span>Üyelik Formu</h2>
 
-		<form action="http://localhost:8088/?url=Admin/addUser" method="POST">
+		<form action="http://localhost:8088/www/?url=Admin/addUser" method="POST">
 
 			<fieldset>
 
@@ -108,7 +108,23 @@ function clearText(field)
 
 				
 				<p><label for="email">Yetki Türü :</label></p>
-				<p><input type="text" name="usertype"></p> <font color='000000'> <font color='CC0000'>**</font> Yetki 1 , 2 , 3 şeklinde girilmelidir. <br>
+				<select  id="sel1" name="sel1">
+                     
+                     <?php
+                   $list = $information["yetki"];?>
+                     <?php
+                  foreach ($list as $key => $L) {                 
+                       ?>
+
+                           <option value="<?=$L["yetki_adi"]?>" > 
+                               <?= $L["yetki_adi"] ?> 
+                           </option> 
+                       <?
+                    }
+
+
+                       ?>
+                           </select></br></br>
 				
 				
 				<br><p><input type="submit" value="Kaydet"></p>

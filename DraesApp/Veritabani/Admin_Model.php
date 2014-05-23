@@ -20,5 +20,18 @@ class Admin_Model extends Model{
     public function kullaniciKaydet($data){
         return $this->db->insert("t_users", $data);
     }
+    
+    
+    public function  bolgeGetir(){
+        $sql="Select bolge_adi from bolge ";
+        return $this->db->select($sql);
+        }
+        
+    public function mahalleGetir($sql){
+        return $this->db->select($sql);
+    }
+    
+        
+    
  
 }

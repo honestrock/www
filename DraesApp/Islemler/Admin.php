@@ -45,18 +45,39 @@ class Admin extends Controller{
                 );
         
             //$result=$draes_veritabani->userControl($data);
+               $username= $_POST["username"];
                
            $admin_model=$this->load->model("Admin_Model");
             $result=$admin_model->userControl($data);
-               
+            $query="select * from t_users where  u_username='$username'";
+            $result2=$admin_model->mahalleGetir($query); 
+            
+            $test="";
+            
+        
+            foreach ($result2 as $key => $value) {
+                
+                if($value["u_yetki"]=="Yonetici"){
+                    $test="Yönetici";
+                }
+                  if($value["u_yetki"]=="Gozlemci"){
+                    $test="Gözlemci";
+                }
+                  if($value["u_yetki"]=="Analizci"){
+                    $test="Analizci";
+                }
+                
+                
+            }
             
              if($result==false){
              header("Location:". SITE_URL ."/index.php?url=Admin/login");
                  }else if($result=true){
-                    
+
                     Session::init();
                     Session::set("login", true);
                     Session::set("username", $_POST["username"]);
+                    Session::set("yetki", $test);
                     header("Location: ". SITE_URL ."/?url=panel/home");
                 }else if($result=false){
                     
@@ -76,7 +97,19 @@ class Admin extends Controller{
     
     
     public function yeniKullanici(){
-        $this->load->view("registerForm");
+        
+          
+          $sql="select yetki_adi from t_yetki";
+       $admin_model=$this->load->model("Admin_Model");
+        $result=$admin_model->mahalleGetir($sql);
+        
+         $data["information"]=array(
+            "yetki" =>$result
+       
+        );
+        
+        
+        $this->load->view("gallery",$data);
     }
     
     public function addUser(){
@@ -85,7 +118,7 @@ class Admin extends Controller{
         
         $u_username=$_POST['username'];
         $u_password=$_POST['password'];
-        $u_typeid=$_POST['usertype'];
+        $u_typeid=$_POST['sel1'];
         
           
         
@@ -93,7 +126,7 @@ class Admin extends Controller{
           $data=array(
             "u_username" =>$u_username,
             "u_password"=>$u_password,
-            "u_typeid"=>$u_typeid
+            "u_yetki"=>$u_typeid
         );
           
           $resultT= $admin_model->kullaniciKaydet($data);
@@ -107,7 +140,7 @@ class Admin extends Controller{
                 "mesaj" => "Kayıt işlemi yapılırken bir sorun oluştu."
             ); 
         }
-          $this->load->view("gallery",$dataM);
+       $this->load->view("draes");
     }
 
 

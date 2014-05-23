@@ -42,19 +42,19 @@ function clearText(field)
                 <div class="home_box left">
                 	<div class="row1 box box1">
                     	<div class="box_with_padding">
-                            <h2><a href="http://localhost:8088/?url=DraesPanel/home">Anasayfa</a></h2>
+                            <h2><a href="http://localhost:8088/www/?url=DraesPanel/home">Anasayfa</a></h2>
                          	Afet Risk Analiz Ve Değerlendirme Sistemi 
 						</div>
                     </div>
                     <div class="row1 box2">
                     	<div class="box_with_padding">
-                        	<h2><a href="http://localhost:8088/?url=LoginIslem/yeniKullanici">Üye Girişi</a></h2>
+                        	<h2><a href="http://localhost:8088/www/?url=LoginIslem/yeniKullanici">Üye Girişi</a></h2>
                             Üye girişi ile sisteme giriş yapın.
 						</div>
                     </div>
                     <div class="row1 box3">
                     	<div class="box_with_padding">
-                        	<h2><a href="http://localhost:8088/?url=Admin/yeniKullanici">Üye Kaydı</a></h2>
+                        	<h2><a href="http://localhost:8088/www/?url=Admin/yeniKullanici">Üye Kaydı</a></h2>
                              Sisteme giriş için üye kaydı oluşturun.
 						</div>
                     </div>

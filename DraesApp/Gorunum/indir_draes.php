@@ -30,11 +30,11 @@ function clearText(field)
 	<div id="templatemo_header">
 	<div id="site_title"><a rel="nofollow" href="<?php echo SITE_PUBLIC_DTEMPLATE ; ?>/index.html" rel="nofollow" target="_parent">Draes</a></div>        <div id="templatemo_menu">
             <ul>
-                <li><a href="index.html" class="home">Anasayfa</a></li>
-                <li><a href="services.html" class="selected services">Üye Girişi</a></li>
-                <li><a href="gallery.html" class="gallery">Üye Ol</a></li>
-                <li><a href="news.html" class="news">Hakkımızda</a></li>
-                <li class="last"><a href="contact.html" class=" contact">İletişim</a></li>
+                    <li><a href="http://localhost:8088/www/?url=DraesPanel/home" class="selected home">Anasayfa</a></li>
+                <li><a href="http://localhost:8088/www/?url=DraesPanel/services" class="services">Üye Girişi</a></li>
+                <li><a href="http://localhost:8088/www/?url=Admin/yeniKullanici" class="gallery">Üye Ol</a></li>
+                <li><a href="http://localhost:8088/www/?url=DraesPanel/news" class="news">Hakkımızda</a></li>
+                <li class="last"><a href="http://localhost:8088/www/?url=DraesPanel/contact" class=" contact">İletişim</a></li>
             </ul>
         </div> <!-- end of templatemo_menu -->
      

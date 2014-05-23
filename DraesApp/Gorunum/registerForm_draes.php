@@ -59,7 +59,24 @@ Güvenlik Kodunu Giriniz *
 </form>
 
 <div class="gerekli">
-    <p>&nbsp; <font size="" color="black" > **Yetki 1,2,3 şeklinde girilmelidir.</p>
+                                        
+	<select  id="sel1" name="sel1">
+                     
+                     <?php
+                   $list = $information["yetki"];?>
+                     <?php
+                  foreach ($list as $key => $L) {                 
+                       ?>
+
+                           <option value="<?=$L["yetki_adi"]?>" > 
+                               <?= $L["yetki_adi"] ?> 
+                           </option> 
+                       <?
+                    }
+
+
+                       ?>
+                           </select></br></br>
  <?php
 
 if(isset($mesaj)){

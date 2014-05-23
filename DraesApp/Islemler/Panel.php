@@ -27,6 +27,33 @@ class Panel extends Controller{
         
     }
     
+    public function draesAnalizBolge($data){
+    
+        $this->load->view("panel/header");
+        $this->load->view("panel/left");
+        $this->load->view("panel/draesAnaliz",$data);
+        $this->load->view("panel/footer");
+        
+    }
+    public function draesAnalizMahalle(){
+    
+        $this->load->view("panel/header");
+        $this->load->view("panel/left");
+        $this->load->view("panel/draesAnaliz");
+        $this->load->view("panel/footer");
+        
+    }
+    
+    public function draesAnalizSokak(){
+    
+        $this->load->view("panel/header");
+        $this->load->view("panel/left");
+        $this->load->view("panel/draesAnaliz");
+        $this->load->view("panel/footer");
+        
+    }
+    
+    
     
     
     

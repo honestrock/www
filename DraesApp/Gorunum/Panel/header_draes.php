@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="tr" xml:lang="tr">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>SimpleAdmin</title>
+<title>Draes Admin</title>
 <link rel="stylesheet" type="text/css" href="<?php echo SITE_PUBLIC; ?>/css/style.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="<?php echo SITE_PUBLIC; ?>/css/navi.css" media="screen" />
 <script type="text/javascript" src="<?php echo SITE_PUBLIC; ?>/js/jquery-1.7.2.min.js"></script>
@@ -19,7 +19,7 @@ $(function(){
 	<div id="header">
 		<div id="top">
 			<div class="left">
-                            <p>Hoşgeldiniz, <strong><?php echo Session::get("username"); ?></strong> [ <a href="<?php echo SITE_URL; ?>/?url=admin/logout">logout</a> ]</p>
+                            <p>Hoşgeldiniz, <strong><?php echo Session::get("username"); ?>(<?php echo Session::get("yetki"); ?>)</strong> [ <a href="<?php echo SITE_URL; ?>/?url=admin/logout">logout</a> ]</p>
 			</div>
 			<div class="right">
 				<div class="align-right">
